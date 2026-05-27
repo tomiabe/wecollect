@@ -35,5 +35,5 @@ A single integrated sprint — design and production build run in parallel. Each
 - Confirm offerings + packaging language (tool-only vs tool+people)
 - Case studies + outcomes
 - Security claims verification
-- Custom build using latest web technology, Pages CMS (git-based) for easy content management, and Cloudflare for deployment and edge performance
+- Sign off on proposed tech stack: custom build using latest web technology, Pages CMS (git-based) for content management, Cloudflare for hosting and edge performance
 
