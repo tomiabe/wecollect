@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Original pre-organised screenshots folder (screenshots live in /assets/current-site/)
+current site shots/
+
+# Source documents and duplicate assets (kept locally only)
+deliverables/assets/

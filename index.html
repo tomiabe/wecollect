@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WeCollect — Website Revamp Strategy</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <div class="nav__brand">
+        <div class="nav__logo" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <rect width="20" height="20" rx="5" fill="white"/>
+            <circle cx="10" cy="10" r="4" fill="#4747D6"/>
+            <circle cx="10" cy="10" r="1.5" fill="white"/>
+          </svg>
+        </div>
+        <span class="nav__name">WeCollect</span>
+        <span class="nav__rule" aria-hidden="true"></span>
+        <span class="nav__label" id="navLabel">Website Revamp Strategy</span>
+      </div>
+      <div class="nav__dots" id="navDots" role="navigation" aria-label="Sections"></div>
+    </div>
+    <div class="nav__track">
+      <div class="nav__bar" id="navBar"></div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- 01 COVER -->
+    <section class="s s-cover" id="s-cover" data-label="Strategy Brief">
+      <div class="s__in">
+        <p class="cover__tag">WeCollect · Website Revamp Strategy · May 2026 · Prepared by <a class="cover__tag-link" href="https://studio.tomiabe.com" target="_blank" rel="noopener noreferrer">Tomi Abe Studio</a></p>
+        <h1 class="cover__h">
+          Africa's<br>
+          <em>native</em> field<br>
+          data infrastructure.
+        </h1>
+        <p class="cover__sub">A complete evaluation of the current site — where the brand is trying to go, what's in the way, and the full blueprint to get there.</p>
+        <div class="cover__meta">
+          <span>12 sections</span>
+          <span class="sep">·</span>
+          <span>Strategy → IA → Blueprint → Delivery</span>
+        </div>
+        <div class="cover__scroll" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M9 3v12M4 10l5 5 5-5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Scroll to explore</span>
+        </div>
+      </div>
+      <div class="cover__bg" aria-hidden="true">01</div>
+    </section>
+
+    <!-- 02 THE BRIEF -->
+    <section class="s s-white" id="s-brief" data-label="The Brief">
+      <div class="s__in">
+        <p class="eyebrow">Context — The Brief</p>
+        <h2 class="s__h">The CEO's words.<br>Verbatim.</h2>
+        <figure class="brief__quote">
+          <blockquote>
+            "We want to redesign our website. More like rebranding WeCollect as Africa's native field process and data collection infrastructure — just pushing that we have the tool and the people. Then break down our offering as data collection, M&E, data validation and field reporting. Also that we can provide the tool and the people or only the tool."
+          </blockquote>
+          <figcaption>Ore Adebayo, CEO · WeCollect · 23 May 2026</figcaption>
+        </figure>
+        <div class="brief__grid">
+          <div class="brief__item">
+            <div class="brief__lbl">The identity</div>
+            <div class="brief__val">Africa's native field process + data collection infrastructure</div>
+          </div>
+          <div class="brief__item">
+            <div class="brief__lbl">The four offerings</div>
+            <div class="brief__val">Data collection · M&amp;E · Data validation · Field reporting</div>
+          </div>
+          <div class="brief__item">
+            <div class="brief__lbl">The packaging</div>
+            <div class="brief__val">Tool + People &nbsp;or&nbsp; Tool only</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 CURRENT SITE GAPS -->
+    <section class="s s-gray" id="s-gaps" data-label="Current Gaps">
+      <div class="s__in">
+        <p class="eyebrow">Heuristic Evaluation — Current Site</p>
+        <h2 class="s__h">Five critical<br>failures.</h2>
+        <p class="s__lead">The current site doesn't match what WeCollect actually is — or what enterprise and government buyers need to see before they trust you with their data.</p>
+
+        <div class="gaps">
+          <div class="gap anim">
+            <span class="gap__n">01</span>
+            <div class="gap__body">
+              <div class="gap__title">Wrong positioning</div>
+              <p>Current hero: <em>"Your all-in-one Tool for Field Project Management."</em> That reads like task software — Trello with GPS. The CEO needs to own the category of infrastructure for field data operations. These are completely different buyer conversations.</p>
+            </div>
+          </div>
+          <div class="gap anim" style="transition-delay:.08s">
+            <span class="gap__n">02</span>
+            <div class="gap__body">
+              <div class="gap__title">No offering structure</div>
+              <p>Navigation reads: Products / Use Cases / Projects / Download. None of this maps to the four offerings (collection, M&amp;E, validation, reporting) or to how buyers engage (tool-only vs tool + people). Buyers can't find what they're looking for because the site isn't organized around them.</p>
+            </div>
+          </div>
+          <div class="gap anim" style="transition-delay:.16s">
+            <span class="gap__n">03</span>
+            <div class="gap__body">
+              <div class="gap__title">Credibility gaps</div>
+              <p>Placeholder copy on live pages. Generic testimonials. Zero visibility into how data integrity actually works. Enterprise and government buyers are choosing a data partner — they're asking "how do I know the data is clean?" That question isn't answered anywhere on the current site.</p>
+            </div>
+          </div>
+          <div class="gap anim" style="transition-delay:.24s">
+            <span class="gap__n">04</span>
+            <div class="gap__body">
+              <div class="gap__title">Four CTAs, zero funnel</div>
+              <p>"Get a Quote" vs "Get started for free" vs "Book a demo" vs "Try it for free" — four different buying signals on the same pages. Each implies a different kind of buyer and a different engagement model. The result: no one knows what to do next.</p>
+            </div>
+          </div>
+          <div class="gap anim" style="transition-delay:.32s">
+            <span class="gap__n">05</span>
+            <div class="gap__body">
+              <div class="gap__title">Design system drift</div>
+              <p>The brand guide defines #4747D6 + #1E1E1E as the core palette. The live site shows inconsistent gradients, mixed type treatments, and components that feel template-born, not designed with intent. For a company positioning as "infrastructure-grade," the visual experience doesn't match the ambition.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="evidence anim" style="transition-delay:.1s">
+          <div class="evidence__item">
+            <p class="evidence__lbl">Current homepage — hero says "Field Project Management"</p>
+            <div class="evidence__frame">
+              <div class="evidence__img-wrap">
+                <img src="assets/current-site/1%20-%20Home.png" alt="Current WeCollect homepage" data-lightbox loading="lazy" />
+              </div>
+            </div>
+          </div>
+          <div class="evidence__item">
+            <p class="evidence__lbl">Products page — no offering structure, placeholder copy present</p>
+            <div class="evidence__frame">
+              <div class="evidence__img-wrap">
+                <img src="assets/current-site/screencapture-wecollect-tech-innovations-2026-05-26-21_20_20.png" alt="Current Products page" data-lightbox loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 POSITIONING -->
+    <section class="s s-blue" id="s-position" data-label="Positioning">
+      <div class="s__in">
+        <p class="eyebrow eyebrow-lt">Recommended Direction — Positioning</p>
+        <h2 class="s__h s__h-lt">The one thing WeCollect<br>needs to own.</h2>
+
+        <blockquote class="position__statement anim">
+          WeCollect is <strong>Africa's native field process and data collection infrastructure</strong> — enabling organizations to run field operations end-to-end with <strong>offline capture</strong>, <strong>data validation</strong>, and <strong>reporting</strong>, powered by <strong>tools + a distributed field agent network</strong>.
+        </blockquote>
+
+        <div class="position__grid">
+          <div class="position__hier anim">
+            <p class="hier__title">Say this, in this order.</p>
+            <ol class="hier__list">
+              <li>
+                <span class="hier__n">1</span>
+                <div><strong>The promise.</strong> Run field operations anywhere in Africa and get data you can trust.</div>
+              </li>
+              <li>
+                <span class="hier__n">2</span>
+                <div><strong>How it works.</strong> Offline-first capture + integrity layers + reporting + agent operations.</div>
+              </li>
+              <li>
+                <span class="hier__n">3</span>
+                <div><strong>What you offer.</strong> Four distinct pillars — collection, M&amp;E, validation, field reporting.</div>
+              </li>
+              <li>
+                <span class="hier__n">4</span>
+                <div><strong>How to buy.</strong> Tool only (bring your own team) or Tool + People (full execution).</div>
+              </li>
+              <li>
+                <span class="hier__n">5</span>
+                <div><strong>Proof.</strong> Coverage, integrity mechanisms, security posture, and case studies with outcomes.</div>
+              </li>
+            </ol>
+          </div>
+          <div class="position__tone anim" style="transition-delay:.1s">
+            <p class="hier__title">Tone principles</p>
+            <div class="tone__group">
+              <p class="tone__label">Use</p>
+              <div class="tone__pills">
+                <span class="pill pill-use">Infrastructure</span>
+                <span class="pill pill-use">Integrity</span>
+                <span class="pill pill-use">Auditability</span>
+                <span class="pill pill-use">Coverage</span>
+                <span class="pill pill-use">Operational execution</span>
+                <span class="pill pill-use">Procurement-ready</span>
+              </div>
+            </div>
+            <div class="tone__group">
+              <p class="tone__label">Avoid</p>
+              <div class="tone__pills">
+                <span class="pill pill-avoid">Innovative products</span>
+                <span class="pill pill-avoid">All-in-one solution</span>
+                <span class="pill pill-avoid">Smart / seamless</span>
+                <span class="pill pill-avoid">Generic SaaS language</span>
+              </div>
+            </div>
+            <div class="tone__note">
+              The difference: infrastructure language signals accountability. Generic SaaS language signals a trial account and a chatbot for support.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 OFFERINGS -->
+    <section class="s s-white" id="s-offerings" data-label="The Offerings">
+      <div class="s__in">
+        <p class="eyebrow">The Four Pillars — Offerings</p>
+        <h2 class="s__h">Four offerings.<br>One infrastructure.</h2>
+        <p class="s__lead">Each pillar is a distinct service with its own buyer, use case, and proof requirements. The site must reflect this — not blend them into a features list.</p>
+
+        <div class="offerings">
+          <div class="offering anim">
+            <div class="offering__top">
+              <svg class="offering__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <rect x="5" y="5" width="26" height="26" rx="5" stroke="#4747D6" stroke-width="1.8"/>
+                <path d="M11 18h14M11 12.5h14M11 23.5h9" stroke="#4747D6" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <span class="offering__n">01</span>
+            </div>
+            <div class="offering__name">Data Collection</div>
+            <p class="offering__desc">Offline-first capture that works in remote, rural, and closed environments. GPS-tracked, multimedia-enabled, with conditional logic that adapts to each respondent. Auto-syncs the moment connectivity returns.</p>
+            <div class="offering__tags">
+              <span>Offline-first</span>
+              <span>GIS-enabled</span>
+              <span>WhatsApp-native</span>
+              <span>Encrypted</span>
+            </div>
+          </div>
+
+          <div class="offering anim" style="transition-delay:.1s">
+            <div class="offering__top">
+              <svg class="offering__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <rect x="5" y="5" width="26" height="26" rx="5" stroke="#4747D6" stroke-width="1.8"/>
+                <path d="M10 26l5-8 5 5 4-8 5 5" stroke="#4747D6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="offering__n">02</span>
+            </div>
+            <div class="offering__name">Monitoring &amp; Evaluation</div>
+            <p class="offering__desc">Real-time project tracking, agent performance scoring, quota enforcement, and longitudinal case management. Built for rigorous M&amp;E frameworks — from baseline through endline — with live visibility at every stage.</p>
+            <div class="offering__tags">
+              <span>Real-time</span>
+              <span>Longitudinal</span>
+              <span>Quota-aware</span>
+              <span>Agent-scored</span>
+            </div>
+          </div>
+
+          <div class="offering anim" style="transition-delay:.2s">
+            <div class="offering__top">
+              <svg class="offering__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <rect x="5" y="5" width="26" height="26" rx="5" stroke="#4747D6" stroke-width="1.8"/>
+                <path d="M18 10l5 5-5 5-5-5 5-5z" stroke="#4747D6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 26c0-3.87 3.13-7 7-7s7 3.13 7 7" stroke="#4747D6" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+              <span class="offering__n">03</span>
+            </div>
+            <div class="offering__name">Data Validation</div>
+            <p class="offering__desc">Truth layers at point of capture. Geofencing, automated rules, auditor loops, AI-detected anomalies, and PII redaction — so data is clean before it ever reaches a report. Not bolted on. Built in.</p>
+            <div class="offering__tags">
+              <span>Geofenced</span>
+              <span>AI clean-room</span>
+              <span>NDPR-compliant</span>
+              <span>Auditor loops</span>
+            </div>
+          </div>
+
+          <div class="offering anim" style="transition-delay:.3s">
+            <div class="offering__top">
+              <svg class="offering__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <rect x="5" y="9" width="26" height="18" rx="4" stroke="#4747D6" stroke-width="1.8"/>
+                <path d="M11 16.5h14M11 21h9" stroke="#4747D6" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M9 9V7.5A2.5 2.5 0 0111.5 5h13A2.5 2.5 0 0127 7.5V9" stroke="#4747D6" stroke-width="1.8"/>
+              </svg>
+              <span class="offering__n">04</span>
+            </div>
+            <div class="offering__name">Field Reporting</div>
+            <p class="offering__desc">Interactive dashboards, customizable outputs, and export-ready formats — PDF, JSON, XML. Reports that are procurement-ready and audit-ready from the start, with API integration for existing BI platforms.</p>
+            <div class="offering__tags">
+              <span>Interactive dashboards</span>
+              <span>Export-ready</span>
+              <span>API-connected</span>
+              <span>Audit-trail</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 PACKAGING -->
+    <section class="s s-gray" id="s-packaging" data-label="How Buyers Engage">
+      <div class="s__in">
+        <p class="eyebrow">How Buyers Engage — Packaging</p>
+        <h2 class="s__h">Two models.<br>One platform.</h2>
+        <p class="s__lead">This is the clearest decision a buyer makes — and it's currently invisible on the site. It must be front and center, immediately understandable.</p>
+
+        <div class="packages anim">
+          <div class="pkg pkg-light">
+            <div class="pkg__badge">Tool only</div>
+            <h3 class="pkg__title">For teams who have<br>their own field force.</h3>
+            <p class="pkg__desc">You bring the enumerators. WeCollect brings the platform — offline capture, validation, reporting, project management, and agent payments infrastructure.</p>
+            <ul class="pkg__list">
+              <li>Full platform access</li>
+              <li>Offline + GIS capabilities</li>
+              <li>Validation + integrity layers</li>
+              <li>Admin + reporting dashboard</li>
+              <li>Agent payment automation</li>
+              <li>API integrations</li>
+            </ul>
+            <p class="pkg__fit">Best for organizations with existing field teams who need better data infrastructure — not more logistics.</p>
+          </div>
+          <div class="pkg pkg-dark">
+            <div class="pkg__badge pkg__badge-blue">Tool + People</div>
+            <h3 class="pkg__title">End-to-end field<br>research execution.</h3>
+            <p class="pkg__desc">WeCollect provides the platform AND the field force — pre-vetted, locally-familiar agents across all 36 Nigerian states. You get data and reporting, not logistics headaches.</p>
+            <ul class="pkg__list">
+              <li>Everything in Tool only</li>
+              <li>300+ LGAs covered</li>
+              <li>Pre-vetted agent network</li>
+              <li>QA loops + field supervision</li>
+              <li>Reporting cadence included</li>
+              <li>Instant agent payouts via Monify</li>
+            </ul>
+            <p class="pkg__fit">Best for research firms, NGOs, government agencies, and enterprises without in-house field capacity — or those scaling beyond their current team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 TRUST / INTEGRITY -->
+    <section class="s s-dark" id="s-trust" data-label="Data Integrity">
+      <div class="s__in">
+        <p class="eyebrow eyebrow-lt">The Integrity Layer — Trust</p>
+        <h2 class="s__h s__h-lt">Data you can prove<br>is clean.</h2>
+        <p class="s__lead s__lead-lt">"Infrastructure" positioning creates a higher proof bar. The site must show exactly how WeCollect validates data — mechanism by mechanism — not just claim it.</p>
+
+        <div class="trust__grid">
+          <div class="trust__item anim">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <path d="M14 2.5L3.5 8v6c0 6.25 4.5 12.1 10.5 13.5C20 26.1 24.5 20.25 24.5 14V8L14 2.5z" stroke="#4747D6" stroke-width="1.6"/>
+              <path d="M10 14l3 3 5-5" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="trust__name">Geofenced validation</div>
+            <p class="trust__desc">Data entry only accepted from verified geographic locations. Wrong coordinates = flagged record. No exceptions.</p>
+          </div>
+          <div class="trust__item anim" style="transition-delay:.08s">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <circle cx="14" cy="14" r="10.5" stroke="#4747D6" stroke-width="1.6"/>
+              <path d="M14 9v5l3.5 3.5" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <div class="trust__name">Rules at point of capture</div>
+            <p class="trust__desc">In-built validation flags bad entries in real-time — before data is ever synced to the server.</p>
+          </div>
+          <div class="trust__item anim" style="transition-delay:.16s">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <path d="M10.5 13.5l3.5 3.5 9-9" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M24.5 14v7a2 2 0 01-2 2h-17a2 2 0 01-2-2V7a2 2 0 012-2h11" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <div class="trust__name">Auditor loops</div>
+            <p class="trust__desc">Structured QA cycles with dedicated auditors reviewing submissions against field protocols — before results are finalized.</p>
+          </div>
+          <div class="trust__item anim" style="transition-delay:.24s">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <circle cx="14" cy="14" r="10.5" stroke="#4747D6" stroke-width="1.6"/>
+              <path d="M9.5 14.5c.5-2.5 2.5-4.5 4.5-4.5 2.5 0 4.5 2.5 4 5.5" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M17.5 15.5l.5 2-2 .5" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="trust__name">AI clean-room</div>
+            <p class="trust__desc">Automated real-time scrubbing for duplicates, flat-lining responses, and AI-detected anomalies — before data reaches any report.</p>
+          </div>
+          <div class="trust__item anim" style="transition-delay:.32s">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <rect x="7" y="13" width="14" height="10.5" rx="2.5" stroke="#4747D6" stroke-width="1.6"/>
+              <path d="M10 13V9a4 4 0 018 0v4" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+              <circle cx="14" cy="18.5" r="1.5" fill="#4747D6"/>
+            </svg>
+            <div class="trust__name">End-to-end encryption</div>
+            <p class="trust__desc">100% encrypted from device capture to cloud storage. GDPR and NDPR compliant, with continuous audit logging and breach alerting.</p>
+          </div>
+          <div class="trust__item anim" style="transition-delay:.4s">
+            <svg class="trust__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <path d="M10 14c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z" stroke="#4747D6" stroke-width="1.6"/>
+              <path d="M4.5 22.5c0-5.25 4.25-9.5 9.5-9.5s9.5 4.25 9.5 9.5" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M5.5 14h-2M24.5 14h-2M14 5.5v-2M14 24.5v-2" stroke="#4747D6" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            <div class="trust__name">PII redaction engine</div>
+            <p class="trust__desc">Automated masking of names and phone numbers at point of export. Privacy built into the workflow — not bolted on after the fact.</p>
+          </div>
+        </div>
+
+        <div class="stats anim">
+          <div class="stat">
+            <div class="stat__val"><span data-counter="100">0</span><span class="stat__unit">%</span></div>
+            <div class="stat__label">Encrypted data</div>
+          </div>
+          <div class="stat">
+            <div class="stat__val"><span data-counter="300">0</span><span class="stat__unit">/774</span></div>
+            <div class="stat__label">LGAs covered</div>
+          </div>
+          <div class="stat">
+            <div class="stat__val"><span data-counter="36">0</span></div>
+            <div class="stat__label">States covered</div>
+          </div>
+          <div class="stat">
+            <div class="stat__val"><span data-counter="21">0</span><span class="stat__unit">+</span></div>
+            <div class="stat__label">Live capabilities</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 SOLUTIONS -->
+    <section class="s s-white" id="s-solutions" data-label="Solutions">
+      <div class="s__in">
+        <p class="eyebrow">Who WeCollect Serves — Solutions</p>
+        <h2 class="s__h">Four buyer contexts.<br>One platform.</h2>
+        <p class="s__lead">Enterprise is primary — but the site should speak precisely to each context rather than use generic copy that speaks to none of them.</p>
+
+        <div class="solutions">
+          <div class="solution anim">
+            <div class="solution__n">01</div>
+            <h3 class="solution__title">Government &amp; Development Surveys</h3>
+            <p class="solution__desc">National enumeration, infrastructure mapping, and large-scale policy research requiring rigorous sampling, geospatial accuracy, and audit-ready outputs for procurement compliance.</p>
+            <div class="solution__need"><strong>Primary need:</strong> Data integrity + coverage proof + compliance posture</div>
+          </div>
+          <div class="solution anim" style="transition-delay:.1s">
+            <div class="solution__n">02</div>
+            <h3 class="solution__title">Consumer &amp; Market Research</h3>
+            <p class="solution__desc">Brand tracking, spending behavior, and market sizing across urban and rural populations. Quota-controlled sampling, representative demographics, and clean data from the first submission.</p>
+            <div class="solution__need"><strong>Primary need:</strong> Speed + representativeness + clean deliverables</div>
+          </div>
+          <div class="solution anim" style="transition-delay:.2s">
+            <div class="solution__n">03</div>
+            <h3 class="solution__title">Health &amp; Humanitarian Research</h3>
+            <p class="solution__desc">Facility enumeration, longitudinal community health tracking, and beneficiary impact studies requiring high data fidelity, ethical data handling, and operational flexibility in low-connectivity areas.</p>
+            <div class="solution__need"><strong>Primary need:</strong> Privacy + offline capability + longitudinal tracking</div>
+          </div>
+          <div class="solution anim" style="transition-delay:.3s">
+            <div class="solution__n">04</div>
+            <h3 class="solution__title">ESG &amp; Social Impact Measurement</h3>
+            <p class="solution__desc">Baseline-endline studies, social verification, and beneficiary feedback for impact investors and DFIs. Clean, attributable data with audit trails that meet investor-grade reporting standards.</p>
+            <div class="solution__need"><strong>Primary need:</strong> Auditability + impact attribution + investor-ready formats</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 09 INFORMATION ARCHITECTURE -->
+    <section class="s s-gray" id="s-ia" data-label="Site Architecture">
+      <div class="s__in">
+        <p class="eyebrow">Structure — Information Architecture</p>
+        <h2 class="s__h">New navigation.<br>Buyer-first.</h2>
+        <p class="s__lead">The current navigation is organized around the company's view of itself. The proposed structure is organized around how buyers think and what they need to find.</p>
+
+        <div class="ia__compare anim">
+          <div class="ia__side">
+            <p class="ia__side-lbl ia__side-lbl--bad">Current nav</p>
+            <div class="ia__nav ia__nav--bad">
+              <span>About Us</span>
+              <span>Products</span>
+              <span>Use Cases</span>
+              <span>Projects</span>
+              <span>Download</span>
+              <span>Sign in</span>
+              <span class="ia__cta ia__cta--bad">Get a Quote</span>
+            </div>
+            <ul class="ia__notes ia__notes--bad">
+              <li>"Products" and "Use Cases" overlap conceptually — buyers can't tell the difference</li>
+              <li>"Projects" and "Use Cases" also overlap — proof is buried and unstructured</li>
+              <li>"Download" as a primary nav item signals mobile app, not enterprise infrastructure</li>
+              <li>No offering structure visible at all</li>
+            </ul>
+          </div>
+
+          <div class="ia__divider" aria-hidden="true">→</div>
+
+          <div class="ia__side">
+            <p class="ia__side-lbl ia__side-lbl--good">Proposed nav</p>
+            <div class="ia__nav ia__nav--good">
+              <span>Platform</span>
+              <span>Offerings</span>
+              <span>Solutions</span>
+              <span>Case Studies</span>
+              <span>Company</span>
+              <span class="ia__cta ia__cta--good">Book a demo</span>
+            </div>
+            <ul class="ia__notes ia__notes--good">
+              <li>Clear separation: what the platform is vs what you offer</li>
+              <li>Proof (Case Studies) is visible and first-class</li>
+              <li>One primary enterprise CTA — no ambiguity</li>
+              <li>Scales cleanly as the product and content grow</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sitemap anim" style="transition-delay:.1s">
+          <p class="sitemap__title">Proposed sitemap (v1)</p>
+          <div class="sitemap__grid">
+            <div class="sitemap__col sitemap__col--root">
+              <div class="sitemap__node sitemap__node--root">Home</div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Platform</div>
+              <div class="sitemap__children">
+                <span>Offline capture</span>
+                <span>Integrity layers</span>
+                <span>Reporting</span>
+                <span>Security</span>
+                <span>Integrations</span>
+              </div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Offerings</div>
+              <div class="sitemap__children">
+                <span>Data collection</span>
+                <span>M&amp;E</span>
+                <span>Validation</span>
+                <span>Field reporting</span>
+                <span>Packaging</span>
+              </div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Solutions</div>
+              <div class="sitemap__children">
+                <span>Government</span>
+                <span>Health &amp; humanitarian</span>
+                <span>Consumer research</span>
+                <span>ESG &amp; impact</span>
+              </div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Case Studies</div>
+              <div class="sitemap__children">
+                <span>Outcome-led pages</span>
+                <span>Consistent template</span>
+              </div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Resources</div>
+              <div class="sitemap__children">
+                <span>Capability deck</span>
+                <span>FAQs</span>
+                <span>Insights</span>
+              </div>
+            </div>
+            <div class="sitemap__col">
+              <div class="sitemap__node">Company</div>
+              <div class="sitemap__children">
+                <span>About</span>
+                <span>Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 HOMEPAGE BLUEPRINT -->
+    <section class="s s-white" id="s-blueprint" data-label="Homepage Blueprint">
+      <div class="s__in">
+        <p class="eyebrow">Page Design — Homepage Blueprint</p>
+        <h2 class="s__h">How the homepage<br>should flow.</h2>
+        <p class="s__lead">Every section earns its place by moving the buyer closer to a decision. No section exists for decoration or generic credibility.</p>
+
+        <div class="blueprint anim">
+          <div class="blueprint__header">
+            <span>#</span>
+            <span>Section</span>
+            <span>Purpose</span>
+            <span>CTA</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">01</span>
+            <strong class="bp__section">Hero + category statement</strong>
+            <p class="bp__purpose">Establish what WeCollect is and for whom. One headline, one sub, two CTAs. No ambiguity.</p>
+            <span class="bp__cta">Book a demo</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">02</span>
+            <strong class="bp__section">Credibility strip</strong>
+            <p class="bp__purpose">Client logos with short context + key metrics (300 LGAs, 36 states, 100% encrypted, 21+ capabilities).</p>
+            <span class="bp__cta">—</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">03</span>
+            <strong class="bp__section">The four offerings</strong>
+            <p class="bp__purpose">Collection · M&amp;E · Validation · Reporting — each as a distinct card with one-sentence clarity and a link to learn more.</p>
+            <span class="bp__cta">Learn more</span>
+          </div>
+          <div class="bp__row bp__row--accent">
+            <span class="bp__n">04</span>
+            <strong class="bp__section">Tool-only vs Tool + People</strong>
+            <p class="bp__purpose">This is the packaging decision. Both options must be immediately understood. This is where a buyer converts from browsing to deciding.</p>
+            <span class="bp__cta">Talk to sales</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">05</span>
+            <strong class="bp__section">Integrity mechanisms</strong>
+            <p class="bp__purpose">Six validation methods, named and explained. Not implied — proved. This is the credibility anchor for enterprise and gov buyers.</p>
+            <span class="bp__cta">—</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">06</span>
+            <strong class="bp__section">Solutions by buyer context</strong>
+            <p class="bp__purpose">Gov · Health · Consumer · ESG — each with a recognizable problem statement. Buyers must see themselves here.</p>
+            <span class="bp__cta">See solutions</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">07</span>
+            <strong class="bp__section">Case studies (2–4)</strong>
+            <p class="bp__purpose">Outcome-led tiles — not project names. Scale + integrity method + result visible at a glance. This is proof, not portfolio.</p>
+            <span class="bp__cta">Read case study</span>
+          </div>
+          <div class="bp__row">
+            <span class="bp__n">08</span>
+            <strong class="bp__section">Engagement process</strong>
+            <p class="bp__purpose">Discovery → Pilot → Rollout → Reporting. Reduces buyer anxiety by making the path predictable and low-risk.</p>
+            <span class="bp__cta">—</span>
+          </div>
+          <div class="bp__row bp__row--accent">
+            <span class="bp__n">09</span>
+            <strong class="bp__section">Final CTA</strong>
+            <p class="bp__purpose">Full-width close. Primary: Book a demo. Secondary: Request a pilot / Download capability deck. One last, clear ask.</p>
+            <span class="bp__cta">Book a demo</span>
+          </div>
+        </div>
+
+        <div class="case__template anim" style="transition-delay:.15s">
+          <p class="case__template-title">Case study template (structure every case study must follow)</p>
+          <div class="case__fields">
+            <div class="case__field"><span>Context</span>Sector, geography, organization type</div>
+            <div class="case__field"><span>Challenge</span>The specific data problem they faced</div>
+            <div class="case__field"><span>Approach</span>Tool-only or Tool + People — and why</div>
+            <div class="case__field"><span>Scale</span>Agents deployed, LGAs covered, timeframe</div>
+            <div class="case__field"><span>Integrity</span>Validation methods and QA loops used</div>
+            <div class="case__field"><span>Outcome</span>Measurable results — data quality, coverage, time, cost</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 PROOF PLAN & DEPENDENCIES -->
+    <section class="s s-gray" id="s-proof" data-label="Proof &amp; Content">
+      <div class="s__in">
+        <p class="eyebrow">Content Requirements — Proof Plan</p>
+        <h2 class="s__h">What needs to exist<br>before this launches.</h2>
+        <p class="s__lead">Positioning as "infrastructure" creates a higher credibility bar. The website must show how you prove data quality and how you execute in the field — not just list what features exist.</p>
+
+        <div class="proof__cols">
+          <div class="proof__col anim">
+            <p class="proof__col-title">Must-have content (gather before design starts)</p>
+            <ul class="proof__list">
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>3 case studies: scope + scale + integrity methods used + measurable outcome</span>
+              </li>
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>Tool + People operating model documented: vetting process, QA loops, supervision structure, agent training</span>
+              </li>
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>Coverage evidence: map or LGA-level breakdown of 300/774 coverage across states</span>
+              </li>
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>Security and privacy claims verified: NDPR/GDPR posture, encryption architecture, storage compliance</span>
+              </li>
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>Real client testimonials: named, titled, and outcome-referenced — not generic praise</span>
+              </li>
+              <li>
+                <span class="proof__arrow">→</span>
+                <span>Product screenshots: admin dashboard, validation layer, reporting output, agent app</span>
+              </li>
+            </ul>
+          </div>
+          <div class="proof__col anim" style="transition-delay:.1s">
+            <p class="proof__col-title">Must-fix before anything ships (current site)</p>
+            <ul class="proof__list proof__list--fix">
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Remove all placeholder / lorem copy from live pages — this is an immediate credibility issue</span>
+              </li>
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Replace generic testimonials with real, attributed quotes from named clients</span>
+              </li>
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Convert project cards into structured case studies (use the template above)</span>
+              </li>
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Unify all CTAs to one primary enterprise path: Book a demo</span>
+              </li>
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Remove "Download" from primary navigation — move to Resources in footer</span>
+              </li>
+              <li>
+                <span class="proof__cross">✗</span>
+                <span>Align visual design to brand guide — remove inconsistent gradients and template-style components</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 DELIVERY PLAN -->
+    <section class="s s-white" id="s-delivery" data-label="Delivery Plan">
+      <div class="s__in">
+        <p class="eyebrow">Execution — Delivery Plan</p>
+        <h2 class="s__h">End-to-end.<br>Phase by phase.</h2>
+        <p class="s__lead">A realistic engagement model from alignment to launch. Each phase has clear deliverables and dependencies — so no phase blocks the next.</p>
+
+        <div class="timeline anim">
+          <div class="tl">
+            <div class="tl__phase">Phase 0</div>
+            <div class="tl__title">Alignment</div>
+            <div class="tl__time">1–3 days</div>
+            <p class="tl__desc">Confirm primary audience, conversion goal, sitemap, messaging hierarchy, and tech stack. Lock the brief before anything is built.</p>
+          </div>
+          <div class="tl">
+            <div class="tl__phase">Phase 1</div>
+            <div class="tl__title">UX + Content Strategy</div>
+            <div class="tl__time">3–7 days</div>
+            <p class="tl__desc">Heuristic audit, page blueprints, proof and content plan, copy framework, and component inventory.</p>
+          </div>
+          <div class="tl">
+            <div class="tl__phase">Phase 2</div>
+            <div class="tl__title">Design + Build</div>
+            <div class="tl__time">4–6 weeks</div>
+            <p class="tl__desc">A single integrated sprint — each page is designed and shipped iteratively. Component library, responsive variants, analytics events, SEO, and performance pass all within this phase.</p>
+          </div>
+          <div class="tl">
+            <div class="tl__phase">Phase 3</div>
+            <div class="tl__title">Launch + Iterate</div>
+            <div class="tl__time">1–2 weeks</div>
+            <p class="tl__desc">QA, content finalization, launch, conversion monitoring, and CTA optimisation based on early data.</p>
+          </div>
+        </div>
+
+        <div class="deps anim" style="transition-delay:.1s">
+          <p class="deps__title">What WeCollect must provide</p>
+          <div class="deps__grid">
+            <div class="dep">Final language for all four offerings + packaging model</div>
+            <div class="dep">Case study outcomes and supporting data</div>
+            <div class="dep">Security + compliance claims verified internally</div>
+            <div class="dep">Client list and logo permissions</div>
+            <div class="dep">Custom build using latest web tech + Pages CMS (git-based) for content management + Cloudflare for deployment</div>
+            <div class="dep">Product screenshots from admin + reporting views</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13 CLOSE -->
+    <section class="s s-blue" id="s-close" data-label="Next Steps">
+      <div class="s__in">
+        <p class="eyebrow eyebrow-lt">Ready to Move — Next Steps</p>
+        <h2 class="s__h s__h-lt">What happens<br>after this.</h2>
+
+        <div class="close__body">
+          <ol class="close__steps">
+            <li class="close__step anim">
+              <span class="close__n">1</span>
+              <div>
+                <strong>Align on this strategy.</strong> Review, push back, adjust priorities. The brief should be locked before design touches anything.
+              </div>
+            </li>
+            <li class="close__step anim" style="transition-delay:.1s">
+              <span class="close__n">2</span>
+              <div>
+                <strong>Provide content assets.</strong> Case studies, proof data, logos, verified security claims, product screenshots.
+              </div>
+            </li>
+            <li class="close__step anim" style="transition-delay:.2s">
+              <span class="close__n">3</span>
+              <div>
+                <strong>Design begins.</strong> High-fidelity wireframes → design system → full page designs with responsive variants.
+              </div>
+            </li>
+            <li class="close__step anim" style="transition-delay:.3s">
+              <span class="close__n">4</span>
+              <div>
+                <strong>Build and launch.</strong> Development, analytics setup, QA, and a live site that converts enterprise buyers.
+              </div>
+            </li>
+          </ol>
+
+          <div class="close__bottom anim" style="transition-delay:.4s">
+            <div class="close__goal">
+              <p class="close__goal-label">Primary conversion goal</p>
+              <p class="close__goal-val">Book a demo / Talk to sales</p>
+              <p class="close__goal-sub">Every page on the new site should point toward one decision: talk to WeCollect.</p>
+            </div>
+            <div class="close__contact">
+              <p class="close__contact-label">WeCollect</p>
+              <p>info@wecollect.tech</p>
+              <p>+234 816 360 8315 · +1 502 600 3912</p>
+              <p>D128 Ikota Complex, Lekki, Lagos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER CREDIT -->
+  <footer class="credit">
+    <div class="credit__in">
+      <span class="credit__by">Prepared by</span>
+      <a class="credit__link" href="https://studio.tomiabe.com" target="_blank" rel="noopener noreferrer">Tomi Abe Studio</a>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer" hidden>
+    <button class="lightbox__close" id="lbClose" type="button">✕ &nbsp;Close</button>
+    <img class="lightbox__img" id="lbImg" alt="" />
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
